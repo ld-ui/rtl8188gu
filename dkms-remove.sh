@@ -7,9 +7,9 @@ else
   echo "About to run dkms removal steps..."
 fi
 
-DRV_DIR=rtl8188eus
-DRV_NAME=8188eu
-DRV_VERSION=5.3.9
+DRV_DIR=rtl8188gu
+DRV_NAME=8188gu
+DRV_VERSION=master
 
 dkms remove ${DRV_NAME}/${DRV_VERSION} --all
 rm -rf /usr/src/${DRV_NAME}-${DRV_VERSION}
