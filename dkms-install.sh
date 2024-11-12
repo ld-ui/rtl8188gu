@@ -9,7 +9,7 @@ fi
 
 DRV_DIR=rtl8188gu
 DRV_NAME=8188gu
-DRV_VERSION=5.3.9
+DRV_VERSION=master
 
 cp -r ../${DRV_DIR} /usr/src/${DRV_NAME}-${DRV_VERSION}
 
